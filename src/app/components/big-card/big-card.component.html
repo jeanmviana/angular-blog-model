@@ -1,22 +1,19 @@
 <div class="container__big-card">
     <!-- mocado -->
     <div class="big-card__photo">
-        <img src="https://sm.ign.com/ign_br/news/m/marvels-ir/marvels-iron-man-vr-release-date-now-set-for-july-2020_8h12.jpg"
-            alt="" height="200px" width="400px" srcset="">
+        <img src="{{ photoCover }}" alt="" height="200px" width="400px" srcset="">
 
     </div>
-    
+
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do angular</a></h1>
+        <h1><a href="#">{{cardTitle}}</a></h1>
 
     </div>
     <div class="big-card__description">
         <p>
             <a href="#">
-            t is a long established fact that a reader will be distracted by the readable content of a page when looking
-            at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-            as opposed to using 'Content here, content here', making it look like readable English.
-        </a>
+                {{cardDescription}}
+            </a>
         </p>
 
     </div>
